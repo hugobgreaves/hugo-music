@@ -156,7 +156,7 @@
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     gateError.hidden = true;
-    const entered = passwordInput.value;
+    const entered = passwordInput.value.replace(/\s+/g, "").trim();
     const hash = await sha256Hex(entered);
     if (hash === PASS_HASH) {
       try {
