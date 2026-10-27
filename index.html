@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0c" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Hugo's Music</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="gate" class="gate" hidden>
+    <div class="gate-card">
+      <h1>Hugo's Music</h1>
+      <p class="gate-sub">Friends only — enter the password</p>
+      <form id="gate-form" autocomplete="off">
+        <input
+          id="password"
+          type="password"
+          inputmode="numeric"
+          placeholder="Password"
+          autofocus
+          required
+        />
+        <button type="submit">Unlock</button>
+      </form>
+      <p id="gate-error" class="gate-error" hidden>Wrong password</p>
+    </div>
+  </div>
+
+  <div id="app" class="app" hidden>
+    <header class="header">
+      <h1>Hugo's Music</h1>
+      <p class="tagline">Private listening</p>
+    </header>
+
+    <main>
+      <ul id="track-list" class="track-list"></ul>
+    </main>
+
+    <footer class="player" id="player-bar">
+      <div class="now-playing">
+        <div id="now-title" class="now-title">Select a track</div>
+        <div id="now-time" class="now-time">0:00 / 0:00</div>
+      </div>
+      <input id="seek" class="seek" type="range" min="0" max="1000" value="0" step="1" />
+      <div class="controls">
+        <button id="btn-prev" type="button" aria-label="Previous">⏮</button>
+        <button id="btn-play" type="button" aria-label="Play">▶</button>
+        <button id="btn-next" type="button" aria-label="Next">⏭</button>
+      </div>
+    </footer>
+  </div>
+
+  <audio id="audio" preload="metadata"></audio>
+  <script src="app.js"></script>
+</body>
+</html>
