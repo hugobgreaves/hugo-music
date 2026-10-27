@@ -3,7 +3,7 @@
 
   // SHA-256 of the friends password — plaintext is never stored in the repo.
   const PASS_HASH =
-    "db06c4343c304f6948afbedd4f8bb6d31d4c490c88e0ab2b5440560182060065";
+    "629f4cf9337b0d0c76f305d860f98894cfa8c279516b425747514ca8710deb97";
   const UNLOCK_KEY = "hugo-music-unlocked";
 
   const TRACKS = [
