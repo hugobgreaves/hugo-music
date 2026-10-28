@@ -38,6 +38,12 @@
       duration: 233,
     },
     {
+      id: "organic",
+      title: "ORGANIC",
+      file: "tracks/organic.mp3",
+      duration: 68,
+    },
+    {
       id: "freestyle-session",
       title: "Freestyle Session",
       file: "tracks/freestyle-session.mp3",
