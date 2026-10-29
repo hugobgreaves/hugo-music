@@ -269,3 +269,6 @@ body { min-height: 100dvh; }
 #btn-play:hover { background: var(--accent-hover); }
 
 [hidden] { display: none !important; }
+
+.brand-logo{display:block;width:140px;max-width:45vw;height:auto;margin:0 auto 10px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35));}
+.header .brand-logo{width:110px;}
