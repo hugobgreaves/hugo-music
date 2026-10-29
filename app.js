@@ -15,7 +15,7 @@
     },
     {
       id: "easy-money",
-      title: "Easy Money",
+      title: "London City",
       file: "tracks/easy-money.mp3",
       duration: 147,
     },
