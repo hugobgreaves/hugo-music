@@ -44,6 +44,12 @@
       duration: 68,
     },
     {
+      id: "collab",
+      title: "🇧🇷🇬🇧",
+      file: "tracks/collab.mp3",
+      duration: 134,
+    },
+    {
       id: "freestyle-session",
       title: "Freestyle Session",
       file: "tracks/freestyle-session.mp3",
