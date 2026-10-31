@@ -50,6 +50,12 @@
       duration: 134,
     },
     {
+      id: "afgan-man",
+      title: "afgan man",
+      file: "tracks/afgan-man.mp3",
+      duration: 74,
+    },
+    {
       id: "freestyle-session",
       title: "Freestyle Session",
       file: "tracks/freestyle-session.mp3",
