@@ -56,6 +56,12 @@
       duration: 74,
     },
     {
+      id: "my-hood-7th",
+      title: "My Hood 7th Edition",
+      file: "tracks/my-hood-7th.mp3",
+      duration: 107,
+    },
+    {
       id: "freestyle-session",
       title: "Freestyle Session",
       file: "tracks/freestyle-session.mp3",
