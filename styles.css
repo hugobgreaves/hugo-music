@@ -272,4 +272,3 @@ body { min-height: 100dvh; }
 
 .brand-logo{display:block;width:140px;max-width:45vw;height:auto;margin:0 auto 10px;filter:drop-shadow(0 0 1px rgba(255,255,255,.08));}
 .header .brand-logo{width:110px;}
-.archive-head{list-style:none;margin:22px 4px 6px;font-size:12px;letter-spacing:.15em;text-transform:uppercase;opacity:.55}

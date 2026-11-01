@@ -49,27 +49,6 @@
       file: "tracks/my-hood-7th.mp3",
       duration: 107,
     },
-    {
-      id: "saturday-night",
-      title: "Saturday Night",
-      archived: true,
-      file: "tracks/saturday-night.mp3",
-      duration: 548,
-    },
-    {
-      id: "two-tens",
-      title: "Two Tens",
-      archived: true,
-      file: "tracks/two-tens.mp3",
-      duration: 233,
-    },
-    {
-      id: "freestyle-session",
-      title: "Freestyle Session",
-      archived: true,
-      file: "tracks/freestyle-session.mp3",
-      duration: 1734,
-    },
   ];
 
   const gate = document.getElementById("gate");
@@ -120,23 +99,14 @@
 
   function renderList() {
     trackList.innerHTML = "";
-    let archStarted = false, n = 0;
     TRACKS.forEach((t, i) => {
-      if (t.archived && !archStarted) {
-        archStarted = true; n = 0;
-        const h = document.createElement("li");
-        h.className = "archive-head";
-        h.textContent = "Archive";
-        trackList.appendChild(h);
-      }
-      n++;
       const li = document.createElement("li");
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "track" + (i === currentIndex ? " active" : "");
       btn.innerHTML =
         '<span class="track-num">' +
-        n +
+        (i + 1) +
         '</span><span class="track-meta"><div class="track-title">' +
         t.title +
         '</div><div class="track-dur">' +
