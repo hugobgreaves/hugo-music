@@ -61,6 +61,12 @@
       file: "tracks/skilli-1.mp3",
       duration: 112,
     },
+    {
+      id: "skilli-tt-2",
+      title: "Skilli TT 2",
+      file: "tracks/skilli-tt-2.mp3",
+      duration: 217,
+    },
   ];
 
   const gate = document.getElementById("gate");
