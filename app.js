@@ -67,6 +67,12 @@
       file: "tracks/skilli-tt-2.mp3",
       duration: 217,
     },
+    {
+      id: "alchemist",
+      title: "/alchemist/",
+      file: "tracks/alchemist.mp3",
+      duration: 159,
+    },
   ];
 
   const gate = document.getElementById("gate");
