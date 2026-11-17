@@ -49,6 +49,12 @@
       file: "tracks/my-hood-7th.mp3",
       duration: 107,
     },
+    {
+      id: "lukes-kitchen",
+      title: "Lukes Kitchen",
+      file: "tracks/lukes-kitchen.mp3",
+      duration: 244,
+    },
   ];
 
   const gate = document.getElementById("gate");
