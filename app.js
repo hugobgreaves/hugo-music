@@ -55,6 +55,12 @@
       file: "tracks/lukes-kitchen.mp3",
       duration: 244,
     },
+    {
+      id: "skilli-1",
+      title: "Skilli 1",
+      file: "tracks/skilli-1.mp3",
+      duration: 112,
+    },
   ];
 
   const gate = document.getElementById("gate");
