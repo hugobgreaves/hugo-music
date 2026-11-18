@@ -73,6 +73,12 @@
       file: "tracks/alchemist.mp3",
       duration: 159,
     },
+    {
+      id: "red-bull",
+      title: "Red Bull",
+      file: "tracks/red-bull.mp3",
+      duration: 86,
+    },
   ];
 
   const gate = document.getElementById("gate");
