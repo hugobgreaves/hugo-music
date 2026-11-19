@@ -9,7 +9,7 @@
   const TRACKS = [
     {
       id: "never-be-a-sheep",
-      title: "Never Be a Sheep",
+      title: "Geek",
       file: "tracks/never-be-a-sheep.mp3",
       duration: 143,
     },
